@@ -11,17 +11,13 @@ function Footer() {
   ];
   return (
     <>
-      <footer className="bg-white z-10  ">
+      <footer className="bg-white z-10 bg-opacity-5 backdrop-filter backdrop-blur-sm border-slate-600 border-b border-opacity-25 shadow-lg ">
         <div className="container mx-auto   px-[10rem]">
           {/* footer div all */}
           <div className="flex justify-between flex-col md:flex-row  items-center md:items-start  md:gap-[5rem] text-left">
             {/* logo side */}
-            <div className="flex flex-col w-1/2 md:p-0 py-4 gap-8">
-              <img
-                src={"https://i.imgur.com/520zDfd.png"}
-                alt="footer_logo"
-                className="w-[18rem]"
-              />
+            <div className="flex flex-col w-1/2 md:p-0 py-4 mt-8 mb-8 gap-8">
+              
               <p className="text-[15px] font-medium text-[#646464]">
                 Take your health and body to the next level with our
                 comprehensive program designed to help you reach your fitness
@@ -54,7 +50,7 @@ function Footer() {
               </p>
             </div>
 
-            {/* middle div */}
+            {/* middle div 
             <div className="flex flex-col gap-8 relative">
               <p className="text-[22px] font-bold footer-main">Our Classes</p>
 
@@ -75,10 +71,10 @@ function Footer() {
               <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
                 Full-body Strength
               </p>
-            </div>
+            </div>*/}
 
             {/* right div */}
-            <div className="flex flex-col gap-8 relative">
+            <div className="flex flex-col m-8 gap-6 relative">
               <p className="text-[22px] font-bold footer-main">Working Hours</p>
 
               <span className="top-[33px] absolute w-[7rem] h-[4px] bg-[#ff0366]"></span>
@@ -89,13 +85,13 @@ function Footer() {
               <p className="text-[16px] text-[#646464] font-medium">
                 7:00am - 21:00pm
               </p>
-              <p className="text-[16px] text-[#646464] font-bold">Saturday:</p>
+              {/*<p className="text-[16px] text-[#646464] font-bold">Saturday:</p>
               <p className="text-[16px] text-[#646464] font-medium">
                 7:00am - 19:00pm
               </p>
               <p className="text-[16px] text-[#646464] font-bold ">
                 Sunday - Closed
-              </p>
+              </p>*/}
             </div>
 
             {/* middle div */}

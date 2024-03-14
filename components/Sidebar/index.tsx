@@ -7,7 +7,7 @@ function index() {
 <div>
       
 
-<aside id="logo-sidebar" className="h-screen sticky bg-slate-500 top-0 left-0 z-0 w-1/5 bottom-3  pb-0 transition-transform -translate-x-full  sm:translate-x-0 dark:bg-transparent " aria-label="Sidebar">
+<aside id="logo-sidebar" className="h-screen sticky bg-slate-500  left-0 z-30 w-1/5 bottom-3  pb-0 transition-transform -translate-x-full  sm:translate-x-0 dark:bg-transparent " aria-label="Sidebar">
    <div className="h-full pt-3 pb-10 px-8 overflow-y-auto scroll-smooth bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm
   [&::-webkit-scrollbar]:w-1
   [&::-webkit-scrollbar-track]:bg-gray-100
